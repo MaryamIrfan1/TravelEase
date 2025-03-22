@@ -1,0 +1,38 @@
+name: travel
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  iconsax: ^0.0.8
+  firebase_core: ^3.8.1
+  firebase_auth: ^5.3.4
+  carousel_slider: ^5.0.0
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  cloud_firestore: ^5.5.1
+  firebase_database: ^11.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/travel-app-logo-icon-brand-identity-sign-symbol_880781-733.jpg
+    - assets/google-icon-logo-symbol-free-png.webp
+    - assets/beach.jpg
+    - assets/mountain.jpg
+    - assets/forest.jpg
+    - assets/desert.jpg
+    - assets/Mount.jpg
+    - assets/cute-girl-cartoon-character-icon-illustration-icon-concept-isolated-premium-flat-000001-vector.jpg
