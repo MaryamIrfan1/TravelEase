@@ -18,7 +18,7 @@ void main() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
         options: const FirebaseOptions(
-            apiKey: "AIzaSyB08dZmEzVsDZ1a__ZADLa4Hi71s4dNTDg",
+            apiKey: "//",
             authDomain: "travelapp-bb035.firebaseapp.com",
             projectId: "travelapp-bb035",
             storageBucket: "travelapp-bb035.firebasestorage.app",
